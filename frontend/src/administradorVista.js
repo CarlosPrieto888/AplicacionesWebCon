@@ -64,7 +64,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 }));
 
 //Recibirá por aquí un props de la nota a añadir 
-export function AdministradorVista(){
+function AdministradorVista(){
   
   const [users, setUsers] = React.useState([]);
   const [editCopia, setEditCopia] = React.useState([]); //Este hook es para actualizar el grid
