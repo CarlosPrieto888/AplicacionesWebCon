@@ -18,7 +18,7 @@ const Img = styled("img")({
 export function menuBusqueda() {
 
     //Variable creada para volver a la pantalla de inicio
-    const navigate = React.useNavigate();
+    const navigate = useNavigate();
 
    /*const {dni} = React.useParams();
     const [nombre, setNombre] = React.useState("");
