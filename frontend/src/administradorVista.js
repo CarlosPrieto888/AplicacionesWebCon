@@ -231,11 +231,6 @@ export function AdministradorVista(){
     }).then(function(response){
       console.log("Se modificaron correctamente los cambios");
     });
-  }
-
-  function buscarDni(){
-    navigate("/busquedaDni/"+dniBusq);
-  }
 
   return(
     <Box sx={{ flexGrow: 1 }}>
