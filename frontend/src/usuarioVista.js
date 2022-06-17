@@ -21,7 +21,7 @@ const Img = styled("img")({
   maxHeight: "9%",
 });
 
-export function UsuarioVista(){
+function UsuarioVista(){
 
   const {dni} = useParams();
   const [users, setUsers] = React.useState([]);
