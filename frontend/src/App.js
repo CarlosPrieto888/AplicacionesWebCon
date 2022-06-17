@@ -9,7 +9,6 @@ import Login from "./login.js";
 import UserNav from "./userSignUp";
 import Admin from "./administradorVista";
 import UserVista from "./usuarioVista";
-import BusqDni from "./busquedaDni";
 
 export default function App() {
   return (
@@ -20,7 +19,6 @@ export default function App() {
                 <Route path="/login" element = {<Login/>}/>
                 <Route path="/Login/userSignUp/:contrasena" element = {<UserNav/>}/>
                 <Route path="/Login/administradorVista" element = {<Admin/>}/>
-                <Route path="/Login/administradorVista/busquedaDni/:dni" element = {<BusqDni/>}/>
                 <Route path="/Login/userSignUp/:contrasena/usuarioVista/:dni" element = {<UserVista/>}/>
             </Routes>
         </div>
