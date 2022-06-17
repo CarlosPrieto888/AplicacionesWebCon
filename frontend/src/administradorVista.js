@@ -327,7 +327,6 @@ export function AdministradorVista(){
                   </TextField>
                 </DialogContent>
                 <DialogActions>
-                  <Button onClick={(e) => buscarDni}>Buscar</Button>
                   <Button>Cancelar</Button>
                 </DialogActions>
             </Dialog>
